@@ -1,0 +1,33 @@
+p{
+	font-style:normal;
+}
+
+P{ font-family: Courier New;
+
+}
+
+p{
+	font-size: 50px;
+}
+
+p{text-align: right;
+
+}
+p{
+	letter-spacing: 3px;
+}
+p{
+	color:tan;
+}
+
+p{
+	text-transform: uppercase;
+}
+
+p{
+	font-weight: lighter;
+}
+
+p{
+	text-decoration:underline overline;
+}
