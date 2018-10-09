@@ -1,0 +1,40 @@
+p{
+	font-style:italic;
+}
+
+P{ font-family: HanziPen TC;
+
+}
+
+p{
+	font-size: 80px;
+}
+
+p{text-align: center;
+
+}
+p{
+	letter-spacing: 2px;
+}
+p{
+	color:azure;
+}
+
+p{
+	text-transform: capitalize;
+}
+
+p{
+	font-weight: lighter;
+
+}
+body{
+	background-color:grey;
+
+}
+
+p{
+	text-decoration:underline;
+}
+
+
