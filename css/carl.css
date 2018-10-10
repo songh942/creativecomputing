@@ -1,0 +1,14 @@
+strong{
+	display:block;
+}
+
+#word-color{
+	color:blue;
+}
+p{
+	box-sizing:border-box;
+width: 400px;
+height: 400px;
+}
+
+}

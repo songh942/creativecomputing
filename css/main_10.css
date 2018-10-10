@@ -1,0 +1,51 @@
+
+p{
+	font-style:normal;
+}
+
+P{ font-family: SignPainter;
+
+}
+
+p{
+	font-size: 100px;
+}
+
+p{text-align: center;
+
+}
+p{
+	letter-spacing: 3px;
+}
+p{
+	color:azure;
+}
+
+p{
+	text-transform: capitalize;
+}
+
+p{
+	font-weight: bold;
+
+}
+
+body
+{
+	background-image: url(https://amazingpict.com/wp-content/uploads/2015/01/black-white-clouds.jpg)
+}
+p{
+	background-repeat: no-repeat;
+}
+p{
+	text-decoration:line-through;
+}
+
+a{
+	color:black;
+}
+
+
+
+
+
