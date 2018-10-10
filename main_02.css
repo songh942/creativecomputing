@@ -1,0 +1,29 @@
+p{
+	font-style:italic;
+}
+
+P{ font-family: HanziPen TC;
+
+}
+
+p{
+	font-size: 50px;
+}
+
+p{text-align: center;
+
+}
+p{
+	letter-spacing: 7px;
+}
+p{
+	color:lavender;
+}
+
+p{
+	text-transform: lowercase;
+}
+
+p{
+	font-weight: bold;
+}
