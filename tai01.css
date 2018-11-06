@@ -1,0 +1,19 @@
+.rectangle{
+	width:300px;
+	height:60px;
+	background:#b22222;
+		transform: translate(-200px);
+
+}
+h1{
+	font-style: normal
+
+}
+
+.rectangle2{
+	width:300px;
+	height:60px;
+	background:#b22222;
+    transform: translate(200px,-468px);
+
+}
