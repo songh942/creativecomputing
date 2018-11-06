@@ -1,0 +1,498 @@
+body
+{
+	margin:0;
+	padding:0;
+	background: white;
+	background-size:500px 200px;
+
+}
+section{
+	position:absolute;
+	margin:0;
+	padding:0;
+	background:#000000;
+	background-size:cover;
+	width:100%;
+	height:100vh;
+	animation: anim-t 15s infinite;
+
+}
+
+@keyframes anim-t{
+	0%{background: :black;}
+	50%{background: #b22222;}
+}
+
+
+
+@keyframes anim-new{
+	0%{fill: :#000000}
+		10%{fill: #2e3d98}
+}
+
+
+
+#curve{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+#curve path{
+	fill:black;
+
+}
+
+.cls-1{
+	animation: anim-new 30s infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+h1{
+	position: relative;
+	font-family:Source Han sefif REGULAR;
+	font-size:110px;
+	text-transform: uppercase;
+	color:white;
+	text-align: center;
+
+}
+
+.title{
+	animation: anim_opacity 10s infinite;
+}
+
+@keyframes anim_opacity {
+	0%{opacity:0}
+	50%{opacity: 1}
+	100%{opacity: 0}
+}
+
+
+
+
+
+h3{
+		position: relative;
+	font-family:source han sefif;
+	font-size:50px;
+	color:black;
+
+
+}
+
+h5{
+border-top:9px dashed #b22222;
+color:black;
+text-transform: capitalize;
+Í
+
+}
+
+
+h4{
+	position: relative;
+	font-family:source han sefif;
+	font-size:50px;
+	color:black;
+	border-top:9px dashed #b22222;
+	
+}
+
+h2{
+	position: relative;
+	font-family:source han sefif;
+	font-size:70px;
+	color:black;
+	text-transform: uppercase;
+	text-decoration:overline;
+	text-decoration-color:#b22222;
+ 	}
+
+ .typewritter{
+ width:65vw;
+
+ 	overflow: hidden;
+ 	/*border-right: .15em solid orange; /* The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line */
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  	animation: 
+    typing 7s steps(90, end);
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #b22222; }
+}
+
+.rectangle{
+	width:1682px;
+	height:30px;
+	background:#b22222;
+}
+
+.rectangle2{
+		width:200px;
+	height:300px;
+	background:white;
+	transform: translate(40px 20px);
+}
+.wrapper{
+	font-family: Source han serif;
+	width:36%;
+	margin: 0 auto;
+	left:60%;
+	top:100%;
+	transform: translate(-130%,-98%);
+	position: absolute;
+}
+.img{
+	width: 10%;
+	height:10%;
+}
+.content{
+	position: absolute;
+	top:45%;
+	left:17%;
+	transform:translate(10%-50%);
+	color:white;
+	font-style: white;
+	text-transform:uppercase;
+	font-size: 28px;
+}
+.overlay{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+height: 98%;
+width:100%;
+opacity: 0;
+transition: .5s ease;
+background: #b22222;
+}
+
+.wrapper:hover .overlay{
+	opacity: 1;
+}
+
+
+.wrapper2{
+	font-family: Source han serif;
+	width:36%;
+	margin: 0 auto;
+	left:60%;
+	top:100%;
+	transform: translate(140%,-99.5%);
+	position: absolute;
+}
+.img2{
+	width: 10%;
+	height:10%;
+}
+.content2{
+	position: absolute;
+	top:45%;
+	left:20%;
+	transform:translate(-5%,-50%);
+	color:white;
+	font-style: white;
+	text-transform:uppercase;
+	font-size: 28px;
+}
+.overlay2{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+height: 97.3%;
+width:276%;
+opacity: 0;
+transition: .5s ease;
+background: #b22222;
+}
+
+.wrapper2:hover .overlay2{
+	opacity: 1;
+}
+
+.wrapper3{
+	font-family: Source han serif;
+	width:36%;
+	margin: 0 auto;
+	left:60%;
+	top:100%;
+	transform: translate(-165%,10.3%);
+	position: absolute;
+}
+.img3{
+	width: 10%;
+	height:10%;
+}
+.content3{
+	position: absolute;
+	top:45%;
+	left:20%;
+	transform:translate(-5%,-50%);
+	color:white;
+	font-style: white;
+	text-transform:uppercase;
+	font-size: 28px;
+}
+.overlay3{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+height: 97.3%;
+width:276%;
+opacity: 0;
+transition: .5s ease;
+background: darkblue;
+}
+
+.wrapper3:hover .overlay3{
+	opacity: 1;
+}
+
+.wrapper4{
+	font-family: Source han serif;
+	width:36%;
+	margin: 0 auto;
+	left:60%;
+	top:100%;
+	transform: translate(685%,-99.3%);
+	position: absolute;
+}
+.img4{
+	width: 10%;
+	height:10%;
+}
+.content4{
+	position: absolute;
+	top:45%;
+	left:20%;
+	transform:translate(-5%,-50%);
+	color:white;
+	font-style: white;
+	text-transform:uppercase;
+	font-size: 28px;
+}
+.overlay4{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+height: 97.3%;
+width:766%;
+opacity: 0;
+transition: .5s ease;
+background: darkblue;
+}
+
+.wrapper4:hover .overlay4{
+	opacity: 1;
+}
+
+.wrapper5{
+	font-family: Source han serif;
+	width:36%;
+	margin: 0 auto;
+	left:60%;
+	top:100%;
+	transform: translate(-2520%,10.3%);
+	position: absolute;
+}
+.img5{
+	width: 10%;
+	height:10%;
+}
+.content5{
+	position: absolute;
+	top:45%;
+	left:20%;
+	transform:translate(-5%,-50%);
+	color:white;
+	font-style: white;
+	text-transform:uppercase;
+	font-size: 28px;
+}
+.overlay5{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+height: 97.3%;
+width:2120%;
+opacity: 0;
+transition: .5s ease;
+background: #b22222;
+}
+
+.wrapper5:hover .overlay5{
+	opacity: 1;
+}
+
+.wrapper6{
+	font-family: Source han serif;
+	width:36%;
+	margin: 0 auto;
+	left:60%;
+	top:100%;
+	transform: translate(-180%,10.3%);
+	position: absolute;
+}
+.img6{
+	width: 10%;
+	height:10%;
+}
+.content6{
+	position: absolute;
+	top:45%;
+	left:20%;
+	transform:translate(-5%,-50%);
+	color:white;
+	font-style: white;
+	text-transform:uppercase;
+	font-size: 28px;
+}
+.overlay6{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+height: 97.3%;
+width:2098%;
+opacity: 0;
+transition: .5s ease;
+background: #b22222;
+}
+
+.wrapper6:hover .overlay6{
+	opacity: 1;
+}
+
+
+.wrapper7{
+	font-family: Source han serif;
+	width:36%;
+	margin: 0 auto;
+	left:60%;
+	top:100%;
+	transform: translate(-2550%,120.3%);
+	position: absolute;
+}
+.img7{
+	width: 10%;
+	height:10%;
+}
+.content7{
+	position: absolute;
+	top:45%;
+	left:20%;
+	transform:translate(-5%,-50%);
+	color:white;
+	font-style: white;
+	text-transform:uppercase;
+	font-size: 28px;
+}
+.overlay7{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+height: 97.3%;
+width:2110%;
+opacity: 0;
+transition: .5s ease;
+background: darkblue;
+}
+
+.wrapper7:hover .overlay7{
+	opacity: 1;
+}
+
+.wrapper8{
+	font-family: Source han serif;
+	width:36%;
+	margin: 0 auto;
+	left:60%;
+	top:100%;
+	transform: translate(6550%,-100%);
+	position: absolute;
+}
+.img8{
+	width: 10%;
+	height:10%;
+}
+.content8{
+	position: absolute;
+	top:45%;
+	left:20%;
+	transform:translate(-5%,-70%);
+	color:white;
+	font-style: white;
+	text-transform:uppercase;
+	font-size: 28px;
+}
+.overlay8{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+height: 97.5%;
+width:5850%;
+opacity: 0;
+transition: .5s ease;
+background: darkblue;
+}
+
+.wrapper8:hover .overlay8{
+	opacity: 1;
+}
+
+h6{
+	position: relative;
+	font-family:Source Han sefif REGULAR;
+	font-size:50px;
+	text-transform: uppercase;
+	color:black;
+	text-align:center;
+}
+
+
+.navbar-inner{
+	margin:auto;
+	width:50%;
+
+}
+
+
