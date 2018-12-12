@@ -611,3 +611,8 @@
 	float: left;
 	/*margin-left: 50px;*/
 }
+
+.home{
+	display: block;
+    margin: auto;
+}
